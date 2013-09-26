@@ -54,7 +54,8 @@ that use the QtPositioning library
 Summary:    Qt positioning plugin (pollling)
 Group:      Qt/Qt
 Requires:   qt5-qtpositioning = %{version}-%{release}
-Conflicts:  qt5-qtlocation-plugin-position-poll
+Obsoletes:  qt5-qtlocation-plugin-position-poll
+Provides:   qt5-qtlocation-plugin-position-poll
 
 %description -n qt5-plugin-position-poll
 This package contains the polling positioning plugin. It provides the
@@ -99,7 +100,8 @@ applications that use QtLocation
 Summary:    Qt Geoservices plugin for Nokia devices
 Group:      Qt/Qt
 Requires:   qt5-qtlocation = %{version}-%{release}
-Conflicts:  qt5-qtlocation-plugin-geoservices-nokia
+Obsoletes:  qt5-qtlocation-plugin-geoservices-nokia
+Provides:   qt5-qtlocation-plugin-geoservices-nokia
 
 %description -n qt5-plugin-geoservices-nokia
 This package contains the geoservices plugin for Nokia devices
@@ -109,7 +111,8 @@ This package contains the geoservices plugin for Nokia devices
 Summary:    Qt Geoservices plugin for OpenStreetMaps
 Group:      Qt/Qt
 Requires:   qt5-qtlocation = %{version}-%{release}
-Conflicts:  qt5-qtlocation-plugin-geoservices-osm
+Obsoletes:  qt5-qtlocation-plugin-geoservices-osm
+Provides:   qt5-qtlocation-plugin-geoservices-osm
 
 %description -n qt5-plugin-geoservices-osm
 This package contains the geoservices plugin for OpenStreetMaps
